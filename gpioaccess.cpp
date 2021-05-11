@@ -1,9 +1,9 @@
 #include "gpioaccess.h"
 #include "QProcess"
 #include <QDebug>
-#include "libsoc_gpio.h"
-#include "libsoc_debug.h"
-#include "libsoc_board.h"
+#include "/opt/tdx-xwayland/5.2.0/sysroots/armv7at2hf-neon-tdx-linux-gnueabi/usr/include\libsoc_gpio.h"
+#include "/opt/tdx-xwayland/5.2.0/sysroots/armv7at2hf-neon-tdx-linux-gnueabi/usr/include\libsoc_debug.h"
+#include "/opt/tdx-xwayland/5.2.0/sysroots/armv7at2hf-neon-tdx-linux-gnueabi/usr/include\libsoc_board.h"
 gpioAccess::gpioAccess(QObject *parent) : QObject(parent)
 {
     process = new QProcess(this);
