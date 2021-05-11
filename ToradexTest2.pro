@@ -25,7 +25,7 @@ QML_IMPORT_PATH =
 # Additional import path used to resolve QML modules just for Qt Quick Designer
 QML_DESIGNER_IMPORT_PATH =
 
-
+INCLUDEPATH += /opt/tdx-xwayland/5.2.0/sysroots/armv7at2hf-neon-tdx-linux-gnueabi/usr/include
 LIBS += -L/opt/tdx-xwayland/5.2.0/sysroots/armv7at2hf-neon-tdx-linux-gnueabi/usr/lib -lsoc
 
 
